@@ -1,5 +1,5 @@
 # Real-Time Face Recognition on PAAS
-We are building a real-time scalable face recognition system on an Edge device, Raspberry Pi. In project 1, we were using building IAAS service where EC2 instances keep running even when we are not using, while in this project we are using serverless component AWS Lambda to implement Function as a Service and invoking lambda function only when we need recognition.  In this project, we are trusting the cloud for autoscaling and other features, so that we can focus more on the problem of concern given a reliable face recognition system with high accuracy.
+We are building a real-time scalable face recognition system on an Edge device, Raspberry Pi. In project 1, we were using building PAAS service where EC2 instances keep running even when we are not using, while in this project we are using serverless component AWS Lambda to implement Function as a Service and invoking lambda function only when we need recognition.  In this project, we are trusting the cloud for autoscaling and other features, so that we can focus more on the problem of concern given a reliable face recognition system with high accuracy.
 
 ![alt text](PAAS.png)
 
